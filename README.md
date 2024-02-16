@@ -7,6 +7,7 @@
 3. [Branches and tags](#branches-and-tags)
 4. [Working on local repository, intermediary mode](#working-on-local-repository-intermediary-mode)
 5. [Best practices](#best-practices)
+6. [Merge strategy](#merge-strategy)
 
 ## Local / remote repositories
 
@@ -86,3 +87,7 @@ Altering past commits is something you should allow, provided you use it appropr
 * Frequently rebase branches in order to prevent conflicts from escalating.
 * Always rebase before merging in order to keep a linear history.
 * Check out [Trunk-Based Development](https://trunkbaseddevelopment.com) for more.
+
+## Merge strategy
+
+See [Merge strategies](merge_strategies.md).
