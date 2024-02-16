@@ -116,7 +116,10 @@ Some like to keep intermediary commits, some don't. It mostly depends on team pr
 
 ## Configuration for Gitlab
 
-![Gitlab settings](img/gitlab_merge_config.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/light-gitlab_merge_config.png" />
+  <img src="img/dark-gitlab_merge_config.png" alt="Gitlab settings" title="Gitlab settings" />
+</picture>
 
 ```mermaid
 flowchart
@@ -141,7 +144,10 @@ flowchart
 
 ## Configuration for GitHub
 
-![GitHub settings](img/github_merge_config.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/light-github_merge_config.png" />
+  <img src="img/dark-github_merge_config.png" alt="GitHub settings" title="GitHub settings" />
+</picture>
 
 ```mermaid
 flowchart

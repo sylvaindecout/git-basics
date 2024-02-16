@@ -11,7 +11,10 @@
 
 ## Local / remote repositories
 
-![Local / Remote](img/git_remote.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/light-git_remote.png" />
+  <img src="img/dark-git_remote.png" alt="Local / Remote" title="Local / Remote" />
+</picture>
 
 :point_up: Remote repository may make it look like it's all centralised, but it's actually peer-to-peer.
 
@@ -65,16 +68,25 @@ Altering past commits is something you should allow, provided you use it appropr
 
 * Each commit is identified by a hash.
 
-![Exemple - étape 1](img/commit_1.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/light-commit_1.png" />
+  <img src="img/dark-commit_1.png" alt="Exemple - étape 1" title="Exemple - étape 1" />
+</picture>
 
 * When you add a commit, previous commits do not change.
 
-![Exemple - étape 2 (ajouter un commit)](img/commit_2.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/light-commit_2.png" />
+  <img src="img/dark-commit_2.png" alt="Exemple - étape 2 (ajouter un commit)" title="Exemple - étape 2 (ajouter un commit)" />
+</picture>
 
 * When you alter a past commit, you actually create a new commit from it, with a distinct hash. And every subsequent commit is copied as well.
   Do former commits disappear? No, but it is pretty much the same, as they are merely not part of the branch anymore. 
 
-![Exemple - étape 3 (modifier un commit)](img/commit_3.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/light-commit_3.png" />
+  <img src="img/dark-commit_3.png" alt="Exemple - étape 3 (modifier un commit)" title="Exemple - étape 3 (modifier un commit)" />
+</picture>
 
 * Amend last commit: `git commit --amend`
 * Delete commits after specified commit (changes are preserved, but uncommitted) : `git reset <hash>`
