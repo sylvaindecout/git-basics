@@ -78,7 +78,7 @@ Altering past commits is something you should allow, provided you use it appropr
 * Amend last commit: `git commit --amend`
 * Delete commits after specified commit (changes are preserved, but uncommitted) : `git reset <hash>`
 * Delete uncommitted changes: `git reset --hard`
-
+fkjldsfklsdjfljdsf
 ## Best practices
 
 * Never use `push --force` on `main` branch.
